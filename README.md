@@ -92,7 +92,7 @@ The **backend** block cannot use variables. It must be hardcoded. Make
 sure to locate **storage_account_name** in the Azure Portal as it has
 a random number in the end for global uniqueness.
 
-```hcl:highlight={10}
+```hcl
 terraform {
   required_providers {
     azurerm = {
